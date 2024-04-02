@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    --cor-de-fundo:#030200;
+    --azul: #3978dd;
+    --branco: #CCCCCC;
+    --bota-ativo: #e8c672;
+    --botao-inativo: #b1ac96;
+    --texto-fundo: #f2eeee;
+}
+
+
+body  {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco); 
+    font-family: 'Caveat', sans-serif;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+}
+
+.titulo-principal span {
+    color: var(--branco);
+}
+
+.botao {
+    font-family: "Crakra Petch", sans-serif;
+    background-color: #00ff1523;
+    color: #eff2ee;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+    border-top: none;
+}
